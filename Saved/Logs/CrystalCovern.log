@@ -1260,3 +1260,1303 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.03-14.32.23:214][ 73]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3934.204102
 [2025.10.03-14.32.24:548][ 77]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.03-14.32.24:548][ 77]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3935.204590, Update Interval: 300.624420
+[2025.10.03-14.36.29:971][814]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-14.36.29:971][814]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-14.36.37:456][237]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-14.36.37:464][237]LogPlayLevel: [PlayLevel] Compiling BP_PlayerCart before play...
+[2025.10.03-14.36.37:505][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.10.03-14.36.37:506][237]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2025.10.03-14.36.37:509][237]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.03-14.36.37:510][237]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.03-14.36.37:510][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-14.36.37:512][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002141s)
+[2025.10.03-14.36.37:512][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002187s)
+[2025.10.03-14.36.37:534][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-14.36.37:535][237]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-14.36.37:536][237]LogPlayLevel: PIE: World Init took: (0.001571s)
+[2025.10.03-14.36.37:537][237]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-14.36.37:537][237]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-14.36.37:537][237]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-14.36.37:537][237]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-14.36.37:537][237]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-14.36.37:537][237]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-14.36.37:540][237]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-14.36.37:554][237]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-14.36.37:554][237]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-14.36.37:554][237]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-14.36.37:554][237]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-14.36.37:554][237]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.03-14.36.37:554][237]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.03-14.36.37:557][237]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.03-14.36.37:557][237]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.03-14.36.37:557][237]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.03-14.36.37:557][237]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level1'.
+[2025.10.03-14.36.37:557][237]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.03-14.36.37:561][237]LogLoad: Game class is 'GameModeBase'
+[2025.10.03-14.36.37:562][237]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-17.36.37
+[2025.10.03-14.36.37:562][237]LogWorld: Bringing up level for play took: 0.000797
+[2025.10.03-14.36.37:563][237]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.10.03-14.36.37:566][237]PIE: Server logged in
+[2025.10.03-14.36.37:567][237]PIE: Play in editor total start time 0,105 seconds.
+[2025.10.03-14.36.37:608][238]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-14.36.37:885][239]LogPSOHitching: Encountered 300 PSO creation hitches so far (124 graphics, 176 compute). 0 of them were precached.
+[2025.10.03-14.36.53:637][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-14.36.53:637][174]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-14.36.53:637][174]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-14.36.53:638][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-14.36.53:638][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-14.36.53:643][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-14.36.53:664][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-14.36.53:664][174]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.03-14.36.53:664][174]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.03-14.36.53:666][174]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.03-14.36.53:672][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.03-14.36.53:743][176]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.10.03-14.38.24:310][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4295.306641
+[2025.10.03-14.38.25:310][520]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.38.25:310][520]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4295.973145, Update Interval: 328.515869
+[2025.10.03-14.43.00:548][495]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-14.43.00:548][495]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-14.44.44:257][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4675.265625
+[2025.10.03-14.44.45:591][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.44.45:591][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4676.265137, Update Interval: 317.662903
+[2025.10.03-14.50.55:304][ 76]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5046.321289
+[2025.10.03-14.50.56:638][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.50.56:638][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5047.321777, Update Interval: 339.352386
+[2025.10.03-14.57.14:694][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5425.729004
+[2025.10.03-14.57.15:693][217]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.57.15:693][217]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5426.395508, Update Interval: 314.401672
+[2025.10.03-15.03.28:075][334]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5799.164551
+[2025.10.03-15.03.29:075][337]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.03.29:075][337]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5799.831055, Update Interval: 318.395325
+[2025.10.03-15.05.23:761][792]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.03-15.05.27:618][ 16]LogPSOHitching: Encountered 350 PSO creation hitches so far (150 graphics, 200 compute). 0 of them were precached.
+[2025.10.03-15.05.27:703][ 17]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.10.03-15.05.27:775][ 19]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.05.27:972][ 20]LogRenderer: Using fallback RTPSO
+[2025.10.03-15.05.28:033][ 22]LogRenderer: Using fallback RTPSO
+[2025.10.03-15.05.37:831][599]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.03-15.05.37:831][599]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.03-15.05.37:833][599]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Level1.Level1:PersistentLevel.PlayerStart_0
+[2025.10.03-15.05.37:833][599]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.37:833][599]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Level1.Level1:PersistentLevel.PlayerStart_0
+[2025.10.03-15.05.37:833][599]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.37:849][599]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.41:972][832]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.42:785][880]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.47:112][126]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.51:185][350]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.53:133][457]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.05.58:885][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.05.58:927][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.05.58:982][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.03-15.05.58:990][778]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.05.58:991][778]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level10B5F324842A46FE31D53A4959B08AE42.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.05.58:998][778]LogFileHelpers: Saving map 'Level1' took 0.071
+[2025.10.03-15.05.59:012][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.006 ms (total: 231.050 ms)
+[2025.10.03-15.05.59:058][778]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.05.59:058][778]LogContentValidation: Enabled validators:
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.05.59:058][778]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.05.59:058][778]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.06.59:908][188]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PlayerCart.BP_PlayerCart_C
+[2025.10.03-15.06.59:908][188]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PlayerCart.BP_PlayerCart_C
+[2025.10.03-15.06.59:910][188]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PlayerCart.BP_PlayerCart as actor: BP_PlayerCart_C /Game/Level1.Level1:PersistentLevel.BP_PlayerCart_C_0
+[2025.10.03-15.06.59:911][188]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PlayerCart.BP_PlayerCart as actor: BP_PlayerCart_C /Game/Level1.Level1:PersistentLevel.BP_PlayerCart_C_0
+[2025.10.03-15.06.59:915][188]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.03-15.07.03:369][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.03-15.07.03:371][392]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.10.03-15.07.03:377][392]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PlayerCart.BP_PlayerCart_C
+[2025.10.03-15.07.03:378][392]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PlayerCart.BP_PlayerCart_C
+[2025.10.03-15.07.03:380][392]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PlayerCart.BP_PlayerCart as actor: BP_PlayerCart_C /Game/Level1.Level1:PersistentLevel.BP_PlayerCart_C_1
+[2025.10.03-15.07.03:381][392]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PlayerCart.BP_PlayerCart as actor: BP_PlayerCart_C /Game/Level1.Level1:PersistentLevel.BP_PlayerCart_C_1
+[2025.10.03-15.09.45:908][958]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6177.034180
+[2025.10.03-15.09.46:908][961]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.09.46:908][961]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6177.701172, Update Interval: 340.451050
+[2025.10.03-15.10.01:196][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.10.01:231][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.10.01:267][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.03-15.10.01:275][128]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.10.01:275][128]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1E333795D42FC151867A40684F56478B5.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.10.01:283][128]LogFileHelpers: Saving map 'Level1' took 0.052
+[2025.10.03-15.10.01:290][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.210 ms (total: 325.261 ms)
+[2025.10.03-15.10.01:317][128]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.10.01:317][128]LogContentValidation: Enabled validators:
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.10.01:317][128]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.10.01:317][128]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.10.02:667][209]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.10.02:674][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.10.02:674][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.10.02:676][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
+[2025.10.03-15.10.02:676][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002520s)
+[2025.10.03-15.10.02:696][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.03-15.10.02:698][209]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.10.02:699][209]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2025.10.03-15.10.02:700][209]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.10.02:700][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.10.02:700][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.10.02:700][209]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.10.02:700][209]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.10.02:700][209]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.10.02:702][209]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.10.02:717][209]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.10.02:717][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.10.02:717][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.10.02:717][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.10.02:717][209]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.03-15.10.02:717][209]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.03-15.10.02:719][209]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.03-15.10.02:719][209]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.03-15.10.02:719][209]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.03-15.10.02:719][209]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1'.
+[2025.10.03-15.10.02:719][209]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.03-15.10.02:723][209]LogLoad: Game class is 'GameModeBase'
+[2025.10.03-15.10.02:724][209]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.10.02
+[2025.10.03-15.10.02:724][209]LogWorld: Bringing up level for play took: 0.000931
+[2025.10.03-15.10.02:725][209]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.10.03-15.10.02:727][209]PIE: Server logged in
+[2025.10.03-15.10.02:729][209]PIE: Play in editor total start time 0,057 seconds.
+[2025.10.03-15.10.02:766][209]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.10.03:542][212]LogRenderer: Using fallback RTPSO
+[2025.10.03-15.10.07:307][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.10.07:307][433]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.10.07:307][433]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.10.07:307][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.10.07:310][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.10.07:313][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.10.07:333][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.10.07:334][433]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.03-15.10.07:334][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.03-15.10.07:335][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.03-15.10.07:341][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-15.10.07:380][434]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.10.03-15.10.07:383][434]LogRenderer: Using fallback RTPSO
+[2025.10.03-15.11.45:967][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-15.11.47:454][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.11.47:492][683]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.11.47:530][683]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-15.11.47:530][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.11.47:530][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.11.47:533][683]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.11.47:533][683]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart7A05FEDC41BAFC379551048E609D251A.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.11.47:541][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.483 ms (total: 411.744 ms)
+[2025.10.03-15.11.47:580][683]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.11.47:580][683]LogContentValidation: Enabled validators:
+[2025.10.03-15.11.47:580][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.11.47:581][683]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.11.47:581][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.11.47:581][683]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.11.47:581][683]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.11.47:581][683]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.11.47:581][683]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.11.51:519][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.03-15.11.52:637][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.11.52:686][965]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.11.52:721][965]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-15.11.52:721][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.11.52:721][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.11.52:724][965]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.11.52:724][965]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart28E367784BBD1D616608B0A2538E283E.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.11.52:731][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.222 ms (total: 505.967 ms)
+[2025.10.03-15.11.52:775][965]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.11.52:775][965]LogContentValidation: Enabled validators:
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.11.52:775][965]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.11.52:775][965]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.11.53:817][ 12]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.11.53:823][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.11.53:823][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.11.53:825][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002561s)
+[2025.10.03-15.11.53:825][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002588s)
+[2025.10.03-15.11.53:847][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-15.11.53:852][ 12]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.11.53:853][ 12]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2025.10.03-15.11.53:854][ 12]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.11.53:854][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.11.53:854][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.11.53:854][ 12]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.11.53:854][ 12]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.11.53:854][ 12]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.11.53:856][ 12]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.11.53:869][ 12]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.11.53:869][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.11.53:869][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.11.53:869][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.11.53:870][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.03-15.11.53:870][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.03-15.11.53:871][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.03-15.11.53:871][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.03-15.11.53:871][ 12]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.03-15.11.53:871][ 12]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level1'.
+[2025.10.03-15.11.53:871][ 12]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.03-15.11.53:875][ 12]LogLoad: Game class is 'GameModeBase'
+[2025.10.03-15.11.53:875][ 12]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.11.53
+[2025.10.03-15.11.53:875][ 12]LogWorld: Bringing up level for play took: 0.000916
+[2025.10.03-15.11.53:877][ 12]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.10.03-15.11.53:878][ 12]PIE: Server logged in
+[2025.10.03-15.11.53:880][ 12]PIE: Play in editor total start time 0,057 seconds.
+[2025.10.03-15.11.53:915][ 12]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.12.07:138][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.12.07:138][451]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.12.07:138][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.12.07:138][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.12.07:141][451]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.12.07:141][451]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart7612ADEB419834E5D383D08D25874037.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.12.07:142][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.870 ms (total: 509.837 ms)
+[2025.10.03-15.12.07:143][451]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.12.07:143][451]LogContentValidation: Enabled validators:
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.12.07:143][451]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.12.07:143][451]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.12.11:217][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.12.11:217][578]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.12.11:217][578]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.12.11:218][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.12.11:220][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.12.11:224][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.12.11:244][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.12.11:244][578]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.03-15.12.11:244][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.03-15.12.11:246][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.03-15.12.11:253][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-15.12.11:315][579]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.10.03-15.12.12:514][646]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-15.12.12:520][646]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-15.12.12:524][646]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.12.12:524][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.12.12:581][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.03-15.12.51:995][ 89]Cmd: DELETE
+[2025.10.03-15.12.51:995][ 89]Cmd: ACTOR DELETE
+[2025.10.03-15.12.51:997][ 89]LogEditorActor: Deleted Actor: BP_PlayerCart_C
+[2025.10.03-15.12.52:019][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.03-15.12.52:021][ 89]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.10.03-15.14.15:872][488]LogPSOHitching: Encountered 400 PSO creation hitches so far (181 graphics, 219 compute). 0 of them were precached.
+[2025.10.03-15.14.21:226][632]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.03-15.14.21:249][632]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.03-15.14.21:257][632]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.03-15.14.21:267][633]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.03-15.14.22:345][698]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-15.14.22:345][698]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-15.14.27:743][ 22]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GameModePlayer
+[2025.10.03-15.14.27:750][ 22]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.03-15.16.26:668][484]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6577.801270
+[2025.10.03-15.16.28:001][488]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.16.28:001][488]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6578.801270, Update Interval: 314.740448
+[2025.10.03-15.20.23:420][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.03-15.20.23:424][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.10.03-15.20.23:431][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level1_Auto3
+[2025.10.03-15.20.23:431][194]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1_Auto36C14238F412C9850386DDC96F4B56813.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Level1_Auto3.umap'
+[2025.10.03-15.20.23:432][194]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.037
+[2025.10.03-15.20.23:432][194]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2025.10.03-15.20.23:433][194]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_GameModePlayer] ([2] browsable assets)...
+[2025.10.03-15.20.23:433][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GameModePlayer]
+[2025.10.03-15.20.23:433][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameModePlayer" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/BP_GameModePlayer_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-15.20.23:435][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_GameModePlayer_Auto3
+[2025.10.03-15.20.23:435][194]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_GameModePlayer_Auto3E125220147458A9AC56D8BB06FC4D9C0.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/BP_GameModePlayer_Auto3.uasset'
+[2025.10.03-15.20.23:435][194]LogFileHelpers: Auto-saving content packages took 0.003
+[2025.10.03-15.22.24:419][633]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6935.552246
+[2025.10.03-15.22.25:419][636]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.22.25:419][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6936.219238, Update Interval: 301.701111
+[2025.10.03-15.23.36:272][849]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-15.23.36:272][849]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-15.25.31:120][397]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_GameModePlayer.BP_GameModePlayer
+[2025.10.03-15.25.31:120][397]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.03-15.25.36:214][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.03-15.25.36:670][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.25.36:705][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_GameModePlayer] ([2] browsable assets)...
+[2025.10.03-15.25.36:705][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GameModePlayer]
+[2025.10.03-15.25.36:705][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameModePlayer" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_GameModePlayer.uasset" SILENT=true
+[2025.10.03-15.25.36:707][686]LogSavePackage: Moving output files for package: /Game/BP_GameModePlayer
+[2025.10.03-15.25.36:707][686]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_GameModePlayerECC5450342805E98427F1A96E4F381DA.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_GameModePlayer.uasset'
+[2025.10.03-15.25.36:718][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.465 ms (total: 558.303 ms)
+[2025.10.03-15.25.36:750][686]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.25.36:750][686]LogContentValidation: Enabled validators:
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.25.36:750][686]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.25.36:750][686]AssetCheck: /Game/BP_GameModePlayer Validating asset
+[2025.10.03-15.25.36:776][686]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../UEPROJECTS/CrystalCovern/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.03-15.26.15:829][879]LogSlate: Window 'BP_GameModePlayer' being destroyed
+[2025.10.03-15.26.15:835][879]LogSlate: Window 'BP_GameModePlayer' being destroyed
+[2025.10.03-15.26.15:838][879]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.26.15:838][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.26.15:886][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.03-15.26.21:009][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.26.21:077][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.26.21:111][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.10.03-15.26.21:119][183]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.26.21:119][183]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1B6D0CB774B13FC2A8BE0CDA49F5933C6.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.26.21:126][183]LogFileHelpers: Saving map 'Level1' took 0.049
+[2025.10.03-15.26.21:134][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.364 ms (total: 682.667 ms)
+[2025.10.03-15.26.21:169][183]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.26.21:169][183]LogContentValidation: Enabled validators:
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.26.21:169][183]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.26.21:169][183]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.27.35:349][509]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.27.35:355][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.27.35:355][509]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.27.35:357][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002375s)
+[2025.10.03-15.27.35:357][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002405s)
+[2025.10.03-15.27.35:378][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-15.27.35:379][509]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.27.35:380][509]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2025.10.03-15.27.35:381][509]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.27.35:381][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.27.35:381][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.27.35:381][509]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.27.35:381][509]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.27.35:381][509]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.27.35:383][509]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.27.35:397][509]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.27.35:397][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.27.35:397][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.27.35:397][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.27.35:397][509]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.10.03-15.27.35:397][509]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.10.03-15.27.35:399][509]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.10.03-15.27.35:399][509]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.10.03-15.27.35:399][509]LogInit: FAudioDevice initialized with ID 5.
+[2025.10.03-15.27.35:399][509]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2025.10.03-15.27.35:399][509]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.03-15.27.35:403][509]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-15.27.35:404][509]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.27.35
+[2025.10.03-15.27.35:404][509]LogWorld: Bringing up level for play took: 0.000783
+[2025.10.03-15.27.35:405][509]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.10.03-15.27.35:407][509]PIE: Server logged in
+[2025.10.03-15.27.35:409][509]PIE: Play in editor total start time 0,054 seconds.
+[2025.10.03-15.27.35:444][510]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.27.35:675][511]LogPSOHitching: Encountered 450 PSO creation hitches so far (209 graphics, 241 compute). 0 of them were precached.
+[2025.10.03-15.27.40:457][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.27.40:457][790]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.27.40:457][790]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.27.40:457][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.27.40:458][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.27.40:463][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.27.40:482][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.27.40:483][790]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.03-15.27.40:483][790]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.10.03-15.27.40:484][790]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.10.03-15.27.40:490][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-15.27.40:530][791]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.10.03-15.27.53:081][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.27.53:087][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.27.53:127][513]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.27.53:129][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2025.10.03-15.27.53:129][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002275s)
+[2025.10.03-15.27.53:149][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.03-15.27.53:153][513]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.27.53:154][513]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2025.10.03-15.27.53:155][513]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.27.53:155][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.27.53:155][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.27.53:155][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.27.53:155][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.27.53:155][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.27.53:156][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.27.53:170][513]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.27.53:170][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.27.53:170][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.27.53:170][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.27.53:171][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.10.03-15.27.53:171][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.10.03-15.27.53:173][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.10.03-15.27.53:173][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.10.03-15.27.53:173][513]LogInit: FAudioDevice initialized with ID 6.
+[2025.10.03-15.27.53:173][513]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2025.10.03-15.27.53:173][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.03-15.27.53:177][513]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-15.27.53:177][513]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.27.53
+[2025.10.03-15.27.53:178][513]LogWorld: Bringing up level for play took: 0.000762
+[2025.10.03-15.27.53:179][513]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.10.03-15.27.53:181][513]PIE: Server logged in
+[2025.10.03-15.27.53:183][513]PIE: Play in editor total start time 0,096 seconds.
+[2025.10.03-15.27.53:221][514]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.27.56:687][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.27.56:688][717]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.27.56:688][717]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.27.56:688][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.27.56:688][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.27.56:692][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.27.56:713][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.27.56:713][717]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.03-15.27.56:713][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.10.03-15.27.56:715][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.10.03-15.27.56:719][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-15.27.56:779][719]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.10.03-15.27.56:985][730]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7268.117188
+[2025.10.03-15.27.57:267][747]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.27.57:268][747]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7268.383301, Update Interval: 324.709015
+[2025.10.03-15.27.59:222][858]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.28.00:664][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.28.00:704][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.28.00:740][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-15.28.00:748][943]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.28.00:748][943]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1235A8C034C4586504E6F6CB1B462D585.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.28.00:755][943]LogFileHelpers: Saving map 'Level1' took 0.051
+[2025.10.03-15.28.00:764][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.681 ms (total: 783.348 ms)
+[2025.10.03-15.28.00:799][943]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.28.00:799][943]LogContentValidation: Enabled validators:
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.28.00:799][943]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.28.00:800][943]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.28.01:340][975]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.28.01:345][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.28.01:345][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.28.01:347][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002451s)
+[2025.10.03-15.28.01:347][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002483s)
+[2025.10.03-15.28.01:368][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.03-15.28.01:369][975]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.28.01:370][975]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2025.10.03-15.28.01:370][975]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.10.03-15.28.01:370][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.28.01:370][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.28.01:370][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.28.01:370][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.28.01:371][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.28.01:371][975]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.28.01:371][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.28.01:371][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.28.01:371][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.28.01:371][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.28.01:371][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.28.01:373][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.28.01:385][975]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.28.01:385][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.28.01:385][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.28.01:385][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.28.01:386][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.10.03-15.28.01:386][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.10.03-15.28.01:388][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.10.03-15.28.01:388][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.10.03-15.28.01:388][975]LogInit: FAudioDevice initialized with ID 7.
+[2025.10.03-15.28.01:388][975]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2025.10.03-15.28.01:388][975]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.03-15.28.01:391][975]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-15.28.01:392][975]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.28.01
+[2025.10.03-15.28.01:392][975]LogWorld: Bringing up level for play took: 0.000770
+[2025.10.03-15.28.01:393][975]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.10.03-15.28.01:395][975]PIE: Server logged in
+[2025.10.03-15.28.01:397][975]PIE: Play in editor total start time 0,052 seconds.
+[2025.10.03-15.28.01:432][976]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.28.08:467][395]Cmd: LevelEditor.ToggleImmersive
+[2025.10.03-15.28.08:487][395]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.03-15.28.14:966][705]Cmd: LevelEditor.ToggleImmersive
+[2025.10.03-15.28.45:669][941]LogDerivedDataCache: C:/Users/Omen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-15.32.25:067][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.32.25:067][717]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.32.25:067][717]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.32.25:067][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.32.25:069][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.32.25:073][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.32.25:092][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.32.25:092][717]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.03-15.32.25:092][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.10.03-15.32.25:094][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.10.03-15.32.25:102][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.10.03-15.32.25:360][717]LogPSOHitching: Encountered 500 PSO creation hitches so far (235 graphics, 265 compute). 0 of them were precached.
+[2025.10.03-15.32.25:438][718]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.10.03-15.32.29:414][916]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_GENERATED/Omen/Box_6587327B.Box_6587327B
+[2025.10.03-15.32.29:457][916]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.10.03-15.32.29:462][916]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-15.32.30:241][917]LogPSOHitching: Encountered 550 PSO creation hitches so far (266 graphics, 284 compute). 0 of them were precached.
+[2025.10.03-15.32.30:321][918]LogRenderer: Using fallback RTPSO
+[2025.10.03-15.32.34:879][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.32.34:920][185]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/Omen/Box_6587327B] ([1] browsable assets)...
+[2025.10.03-15.32.34:920][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_6587327B]
+[2025.10.03-15.32.34:920][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_6587327B" FILE="../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_6587327B.uasset" SILENT=true
+[2025.10.03-15.32.34:922][185]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/Box_6587327B
+[2025.10.03-15.32.34:922][185]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_6587327B1C62F12C4DC74F57A2E979BCA429BA3B.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_6587327B.uasset'
+[2025.10.03-15.32.34:930][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.357 ms (total: 834.706 ms)
+[2025.10.03-15.32.34:964][185]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.32.34:964][185]LogContentValidation: Enabled validators:
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.32.34:964][185]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.32.34:964][185]AssetCheck: /Game/_GENERATED/Omen/Box_6587327B Validating asset
+[2025.10.03-15.32.36:671][287]LogSlate: Window 'Box_6587327B' being destroyed
+[2025.10.03-15.32.36:711][287]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.32.36:711][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.32.36:759][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.03-15.32.42:469][616]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_GENERATED/Omen/Box_012B2E51.Box_012B2E51
+[2025.10.03-15.32.42:506][616]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.10.03-15.32.46:409][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.32.46:454][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/Omen/Box_012B2E51] ([1] browsable assets)...
+[2025.10.03-15.32.46:454][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_012B2E51]
+[2025.10.03-15.32.46:454][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_012B2E51" FILE="../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_012B2E51.uasset" SILENT=true
+[2025.10.03-15.32.46:455][808]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/Box_012B2E51
+[2025.10.03-15.32.46:456][808]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_012B2E5141E0DCBF468710103736FB8E3E66DE65.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_012B2E51.uasset'
+[2025.10.03-15.32.46:463][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.358 ms (total: 889.065 ms)
+[2025.10.03-15.32.46:493][808]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.32.46:493][808]LogContentValidation: Enabled validators:
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.32.46:493][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.32.46:493][808]AssetCheck: /Game/_GENERATED/Omen/Box_012B2E51 Validating asset
+[2025.10.03-15.32.47:630][876]LogSlate: Window 'Box_012B2E51' being destroyed
+[2025.10.03-15.32.47:669][876]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.32.47:669][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.32.47:719][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.03-15.33.58:949][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7630.082031
+[2025.10.03-15.33.59:949][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.33.59:949][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7630.749512, Update Interval: 350.562439
+[2025.10.03-15.36.43:249][625]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCart.BP_PlayerCart
+[2025.10.03-15.36.43:249][625]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.10.03-15.36.53:570][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.10.03-15.36.53:973][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.36.54:017][136]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.36.54:052][136]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-15.36.54:052][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.36.54:052][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.36.54:055][136]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.36.54:055][136]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCartF8BD8E9949070203BA432AB821AD4DC2.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.36.54:063][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.304 ms (total: 978.370 ms)
+[2025.10.03-15.36.54:095][136]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.36.54:095][136]LogContentValidation: Enabled validators:
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.36.54:095][136]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.36.54:095][136]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.37.58:594][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-15.37.59:000][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.37.59:037][ 67]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.37.59:042][ 67]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-15.37.59:042][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.37.59:042][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.37.59:046][ 67]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.37.59:046][ 67]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart6948D6D84D7C1046C3BAEE99ABA8C9F0.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.37.59:055][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.378 ms (total: 1.03 sec)
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: Enabled validators:
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.37.59:091][ 67]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.37.59:091][ 67]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.40.26:282][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-15.40.26:834][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.40.26:865][872]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.40.26:871][872]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-15.40.26:871][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.40.26:871][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.40.26:875][872]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.40.26:875][872]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart6F7968FD43416D5A645DA6825BD43107.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.40.26:882][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.470 ms (total: 1.08 sec)
+[2025.10.03-15.40.26:913][872]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.40.26:913][872]LogContentValidation: Enabled validators:
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.40.26:913][872]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.40.26:913][872]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.40.34:613][271]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.40.36:335][373]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.40.38:262][471]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.40.42:063][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.40.42:098][659]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-15.40.42:098][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-15.40.42:098][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-15.40.42:102][659]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-15.40.42:102][659]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCartF9BD7F7A4B5ADF5AFCF530BB40F70125.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-15.40.42:110][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.136 ms (total: 1.12 sec)
+[2025.10.03-15.40.42:146][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.40.42:146][659]LogContentValidation: Enabled validators:
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.40.42:146][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.40.42:146][659]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-15.40.46:937][803]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8038.070312
+[2025.10.03-15.40.47:265][817]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.40.47:265][817]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8038.380859, Update Interval: 333.359161
+[2025.10.03-15.40.47:813][847]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.40.50:361][979]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-15.40.51:202][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.40.51:243][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.40.51:279][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.03-15.40.51:291][ 28]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.40.51:292][ 28]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level12110645243E09F97863AEE9C3346572B.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.40.51:298][ 28]LogFileHelpers: Saving map 'Level1' took 0.056
+[2025.10.03-15.40.51:306][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.039 ms (total: 1.23 sec)
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: Enabled validators:
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.40.51:340][ 28]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.40.51:340][ 28]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.40.59:885][502]LogStreaming: Display: FlushAsyncLoading(534): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-15.41.03:914][718]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.03-15.41.03:916][718]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.03-15.41.05:375][802]LogInteractiveToolsContext: Display: Alter shape settings in the detail panel or modify placement with gizmo, then accept the tool.
+[2025.10.03-15.41.38:681][715]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_GENERATED/Omen/Box_B55249C7.Box_B55249C7
+[2025.10.03-15.41.38:682][715]LogStaticMesh: Display: Building static mesh Box_B55249C7 (Required Memory Estimate: 0.027864 MB)...
+[2025.10.03-15.41.38:682][715]LogStaticMesh: Built static mesh [0.00s] /Game/_GENERATED/Omen/Box_B55249C7.Box_B55249C7
+[2025.10.03-15.41.38:682][715]LogActorFactory: Actor Factory spawned StaticMesh /Game/_GENERATED/Omen/Box_B55249C7.Box_B55249C7 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1
+[2025.10.03-15.41.38:764][715]LogStreaming: Display: FlushAsyncLoading(545): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-15.41.42:444][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.41.42:450][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.41.42:450][913]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.41.42:453][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002459s)
+[2025.10.03-15.41.42:453][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002487s)
+[2025.10.03-15.41.42:490][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.03-15.41.42:493][913]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.41.42:494][913]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2025.10.03-15.41.42:495][913]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.41.42:495][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.41.42:495][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.41.42:495][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.41.42:495][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.41.42:495][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.41.42:497][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.41.42:510][913]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.41.42:511][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.41.42:511][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.41.42:511][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.41.42:511][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.10.03-15.41.42:511][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.10.03-15.41.42:513][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.10.03-15.41.42:513][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.10.03-15.41.42:513][913]LogInit: FAudioDevice initialized with ID 8.
+[2025.10.03-15.41.42:513][913]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2025.10.03-15.41.42:513][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.03-15.41.42:517][913]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-15.41.42:518][913]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.41.42
+[2025.10.03-15.41.42:518][913]LogWorld: Bringing up level for play took: 0.000725
+[2025.10.03-15.41.42:520][913]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.10.03-15.41.42:521][913]PIE: Server logged in
+[2025.10.03-15.41.42:523][913]PIE: Play in editor total start time 0,073 seconds.
+[2025.10.03-15.41.42:529][913]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.41.45:737][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.41.45:737][ 87]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.41.45:737][ 87]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.41.45:737][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.41.45:738][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.41.45:742][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.41.45:762][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.41.45:762][ 87]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.03-15.41.45:762][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.10.03-15.41.45:764][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.10.03-15.41.45:769][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.03-15.41.45:818][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.10.03-15.41.52:511][467]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_GENERATED/Omen/Box_B55249C7.Box_B55249C7
+[2025.10.03-15.41.52:520][467]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.10.03-15.41.53:233][468]LogPSOHitching: Encountered 600 PSO creation hitches so far (296 graphics, 304 compute). 0 of them were precached.
+[2025.10.03-15.42.13:339][528]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_GENERATED/Omen/Box_6587327B.Box_6587327B
+[2025.10.03-15.42.13:348][528]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.10.03-15.43.01:495][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.43.01:532][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-15.43.01:623][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.10.03-15.43.01:635][236]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-15.43.01:635][236]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1EB4B98E54DCE8F8903A8F5A116B1EE46.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-15.43.01:643][236]LogFileHelpers: Saving map 'Level1' took 0.111
+[2025.10.03-15.43.01:652][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.771 ms (total: 1.38 sec)
+[2025.10.03-15.43.01:690][236]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.43.01:690][236]LogContentValidation: Enabled validators:
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.43.01:690][236]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.43.01:690][236]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-15.47.02:331][480]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-15.47.02:374][480]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_GENERATED/Omen/Box_B55249C7] ([1] browsable assets)...
+[2025.10.03-15.47.02:410][480]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_GENERATED/Omen/Box_B55249C7.Box_B55249C7]
+[2025.10.03-15.47.02:411][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_B55249C7]
+[2025.10.03-15.47.02:411][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_B55249C7" FILE="../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_B55249C7.uasset" SILENT=true
+[2025.10.03-15.47.02:413][480]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/Box_B55249C7
+[2025.10.03-15.47.02:413][480]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_B55249C7A5795E334063E1768979089325206B7D.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_B55249C7.uasset'
+[2025.10.03-15.47.02:422][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.521 ms (total: 1.47 sec)
+[2025.10.03-15.47.02:450][480]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-15.47.02:450][480]LogContentValidation: Enabled validators:
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-15.47.02:450][480]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-15.47.02:451][480]AssetCheck: /Game/_GENERATED/Omen/Box_B55249C7 Validating asset
+[2025.10.03-15.47.02:470][480]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../UEPROJECTS/CrystalCovern/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.03-15.47.03:343][531]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.47.03:343][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.47.03:384][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.03-15.47.04:296][582]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.47.04:297][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.47.04:330][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.03-15.47.05:371][643]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-15.47.05:382][643]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.47.05:382][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.47.05:437][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.10.03-15.47.06:919][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-15.47.06:925][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-15.47.06:925][728]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-15.47.06:927][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2025.10.03-15.47.06:927][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002269s)
+[2025.10.03-15.47.06:947][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-15.47.06:948][728]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-15.47.06:950][728]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2025.10.03-15.47.06:950][728]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-15.47.06:950][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-15.47.06:951][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-15.47.06:951][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-15.47.06:951][728]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-15.47.06:951][728]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-15.47.06:951][728]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-15.47.06:953][728]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-15.47.06:967][728]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-15.47.06:967][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-15.47.06:967][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-15.47.06:967][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-15.47.06:967][728]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.03-15.47.06:967][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.03-15.47.06:969][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.03-15.47.06:969][728]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.03-15.47.06:969][728]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.03-15.47.06:969][728]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level1'.
+[2025.10.03-15.47.06:970][728]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.03-15.47.06:973][728]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-15.47.06:974][728]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-18.47.06
+[2025.10.03-15.47.06:974][728]LogWorld: Bringing up level for play took: 0.000832
+[2025.10.03-15.47.06:975][728]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.03-15.47.06:978][728]PIE: Server logged in
+[2025.10.03-15.47.06:979][728]PIE: Play in editor total start time 0,055 seconds.
+[2025.10.03-15.47.07:013][729]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-15.47.10:467][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.47.10:467][919]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-15.47.10:467][919]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-15.47.10:467][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.47.10:468][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-15.47.10:472][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-15.47.10:494][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-15.47.10:495][919]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.03-15.47.10:495][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.10.03-15.47.10:497][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.10.03-15.47.10:502][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.03-15.47.10:557][920]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.03-15.47.19:611][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8430.729492
+[2025.10.03-15.47.20:611][  6]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.47.20:611][  6]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8431.395508, Update Interval: 353.464783
+[2025.10.03-15.53.46:323][163]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8817.421875
+[2025.10.03-15.53.47:323][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.53.47:324][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8818.088867, Update Interval: 317.302155
+[2025.10.03-15.59.43:032][233]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9174.087891
+[2025.10.03-15.59.44:033][236]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.59.44:033][236]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9174.753906, Update Interval: 351.888184
+[2025.10.03-16.05.12:905][692]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.05.12:906][692]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.06.07:670][943]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9558.682617
+[2025.10.03-16.06.08:671][946]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.06.08:671][946]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9559.349609, Update Interval: 328.092896
+[2025.10.03-16.12.07:716][ 23]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9918.718750
+[2025.10.03-16.12.08:717][ 26]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.12.08:717][ 26]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9919.385742, Update Interval: 319.997559
+[2025.10.03-16.18.25:203][311]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10296.167969
+[2025.10.03-16.18.26:202][314]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.18.26:202][314]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10296.833984, Update Interval: 315.004120
+[2025.10.03-16.21.21:801][841]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-16.21.21:801][841]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-16.21.28:278][216]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.21.28:278][216]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.22.12:464][861]LogSlate: Window 'Plugins' being destroyed
+[2025.10.03-16.22.14:367][973]LogPSOHitching: Encountered 650 PSO creation hitches so far (323 graphics, 327 compute). 0 of them were precached.
+[2025.10.03-16.24.33:447][449]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10664.355469
+[2025.10.03-16.24.34:448][452]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.24.34:449][452]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10665.022461, Update Interval: 341.031525
+[2025.10.03-16.25.37:981][643]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-16.25.37:981][643]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-16.25.46:498][991]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.03-16.25.46:506][991]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.03-16.25.46:519][992]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.03-16.25.47:229][ 35]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.25.47:229][ 35]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-16.25.48:427][107]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2025.10.03-16.25.48:428][107]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.03-16.25.51:351][270]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.03-16.25.51:359][270]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.03-16.25.51:388][272]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.03-16.25.53:362][391]LogContentBrowser: Attempting asset rename: NewFolder -> DrillTank
+[2025.10.03-16.25.53:362][391]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.03-16.25.56:266][564]LogStreaming: Display: FlushAsyncLoading(546): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-16.27.36:087][235]LogStreaming: Display: FlushAsyncLoading(574): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-16.27.36:108][235]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Omen/Downloads/DrillTank.fbx]
+[2025.10.03-16.27.40:977][235]LogSlate: Window 'Import Content' being destroyed
+[2025.10.03-16.27.40:993][235]LogInterchangeEngine: [Pending] Importing
+[2025.10.03-16.27.41:047][236]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-16.27.41:087][237]LogStreaming: Display: FlushAsyncLoading(585): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-16.27.41:196][239]LogStaticMesh: Display: Building static mesh DrillTank (Required Memory Estimate: 7.255106 MB)...
+[2025.10.03-16.27.41:205][239]LogStaticMesh: Adjacency [0.00s], tris: 3050, UVs 4
+[2025.10.03-16.27.41:212][239]LogStaticMesh: Clustering [0.01s]. Ratio: 1.041667
+[2025.10.03-16.27.41:212][239]LogStaticMesh: Leaves [0.00s]
+[2025.10.03-16.27.41:331][241]LogStaticMesh: Reduce [0.12s]
+[2025.10.03-16.27.41:370][241]LogStaticMesh: Fallback [0.04s], num tris: 2444
+[2025.10.03-16.27.41:424][241]LogStaticMesh: Fallback [0.05s], num tris: 1899
+[2025.10.03-16.27.41:425][241]LogStaticMesh: ConstrainClusters:
+[2025.10.03-16.27.41:425][241]LogStaticMesh:   Input: 49 Clusters, 6072 Triangles and 8284 Vertices
+[2025.10.03-16.27.41:425][241]LogStaticMesh:   Output without splits: 49 Clusters, 6072 Triangles and 8473 Vertices
+[2025.10.03-16.27.41:425][241]LogStaticMesh:   Output with splits: 49 Clusters, 6072 Triangles and 8473 Vertices
+[2025.10.03-16.27.41:425][241]LogStaticMesh: Material Stats - Unique Materials: 5, Fast Path Clusters: 40, Slow Path Clusters: 9, 1 Material: 14, 2 Materials: 5, 3 Materials: 21, At Least 4 Materials: 9
+[2025.10.03-16.27.41:428][241]LogStaticMesh: WritePages:
+[2025.10.03-16.27.41:428][241]LogStaticMesh:   Root: GPU size: 32620 bytes. 1 Pages. 32620.000 bytes per page (99.548% utilization).
+[2025.10.03-16.27.41:428][241]LogStaticMesh:   Streaming: GPU size: 121404 bytes. 1 Pages (1 with relative encoding). 121404.000 bytes per page (92.624% utilization).
+[2025.10.03-16.27.41:428][241]LogStaticMesh:   Page data disk size: 121784 bytes. Fixup data size: 216 bytes.
+[2025.10.03-16.27.41:428][241]LogStaticMesh:   Total GPU size: 154024 bytes, Total disk size: 122000 bytes.
+[2025.10.03-16.27.41:428][241]LogStaticMesh: Encode [0.01s]
+[2025.10.03-16.27.41:428][241]LogStaticMesh: NaniteBuild [0.22s]
+[2025.10.03-16.27.41:538][247]LogStaticMesh: Built static mesh [0.34s] /Game/Meshes/DrillTank/DrillTank.DrillTank
+[2025.10.03-16.27.41:701][250]LogPSOHitching: Encountered 700 PSO creation hitches so far (353 graphics, 347 compute). 0 of them were precached.
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:703][250]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:803][250]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.03-16.27.41:985][251]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:985][251]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.41:988][251]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.42:004][251]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.42:081][251]LogPSOHitching: Encountered 750 PSO creation hitches so far (366 graphics, 384 compute). 0 of them were precached.
+[2025.10.03-16.27.42:578][277]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Omen/Downloads/DrillTank.fbx]
+[2025.10.03-16.27.42:578][277]Interchange: Warning: [C:/Users/Omen/Downloads/DrillTank.fbx : 'DrillTank', StaticMesh] No smoothing group information was found for this mesh 'Spiral_001' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.03-16.27.42:605][277]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.03-16.27.42:605][277]LogInterchangeEngine: [Success] Import Done
+[2025.10.03-16.27.43:450][310]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:542][311]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.03-16.27.43:551][311]LogD3D12RHI: Creating RTPSO with 32 shaders (0 cached, 1 new) took 101.40 ms. Compile time 99.47 ms, link time 1.89 ms.
+[2025.10.03-16.27.43:638][311]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:643][312]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:656][313]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:686][314]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:702][315]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.43:704][315]LogD3D12RHI: Creating RTPSO with 33 shaders (1 cached, 1 new) took 66.68 ms. Compile time 64.46 ms, link time 2.20 ms.
+[2025.10.03-16.27.44:492][357]LogMaterial: Display: Material /Game/Meshes/DrillTank/M_DrillMetal.M_DrillMetal needed to have new flag set bUsedWithNanite !
+[2025.10.03-16.27.44:516][357]LogMaterial: Display: Material /Game/Meshes/DrillTank/M_TankYellow.M_TankYellow needed to have new flag set bUsedWithNanite !
+[2025.10.03-16.27.44:524][357]LogMaterial: Display: Material /Game/Meshes/DrillTank/M_EmissiveGreen.M_EmissiveGreen needed to have new flag set bUsedWithNanite !
+[2025.10.03-16.27.44:533][357]LogMaterial: Display: Material /Game/Meshes/DrillTank/M_TankBlack.M_TankBlack needed to have new flag set bUsedWithNanite !
+[2025.10.03-16.27.44:544][357]LogMaterial: Display: Material /Game/Meshes/DrillTank/M_TankWhite.M_TankWhite needed to have new flag set bUsedWithNanite !
+[2025.10.03-16.27.44:596][358]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.27.44:678][359]LogD3D12RHI: Creating RTPSO with 34 shaders (0 cached, 1 new) took 82.52 ms. Compile time 79.41 ms, link time 3.06 ms.
+[2025.10.03-16.27.44:852][360]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.28.15:440][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.10.03-16.28.15:447][765]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.032
+[2025.10.03-16.28.15:448][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/M_DrillMetal] ([1] browsable assets)...
+[2025.10.03-16.28.15:500][765]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/DrillTank/M_DrillMetal.M_DrillMetal]
+[2025.10.03-16.28.15:500][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/M_DrillMetal]
+[2025.10.03-16.28.15:500][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/M_DrillMetal" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_DrillMetal_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-16.28.15:502][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/M_DrillMetal_Auto4
+[2025.10.03-16.28.15:503][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_DrillMetal_Auto4BDD32021437363BC48D6ED85859F0488.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_DrillMetal_Auto4.uasset'
+[2025.10.03-16.28.15:503][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/M_EmissiveGreen] ([1] browsable assets)...
+[2025.10.03-16.28.15:509][765]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/DrillTank/M_EmissiveGreen.M_EmissiveGreen]
+[2025.10.03-16.28.15:509][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/M_EmissiveGreen]
+[2025.10.03-16.28.15:512][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/M_EmissiveGreen_Auto4
+[2025.10.03-16.28.15:512][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_EmissiveGreen_Auto4BB30356848915173647668AFB04AD5A4.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_EmissiveGreen_Auto4.uasset'
+[2025.10.03-16.28.15:512][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/M_TankBlack] ([1] browsable assets)...
+[2025.10.03-16.28.15:518][765]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/DrillTank/M_TankBlack.M_TankBlack]
+[2025.10.03-16.28.15:518][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/M_TankBlack]
+[2025.10.03-16.28.15:518][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/M_TankBlack" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankBlack_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-16.28.15:521][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/M_TankBlack_Auto4
+[2025.10.03-16.28.15:521][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_TankBlack_Auto4B8C703114CD312C9FA4BAB9069AD426C.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankBlack_Auto4.uasset'
+[2025.10.03-16.28.15:521][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/M_TankWhite] ([1] browsable assets)...
+[2025.10.03-16.28.15:528][765]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/DrillTank/M_TankWhite.M_TankWhite]
+[2025.10.03-16.28.15:528][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/M_TankWhite]
+[2025.10.03-16.28.15:528][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/M_TankWhite" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankWhite_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-16.28.15:530][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/M_TankWhite_Auto4
+[2025.10.03-16.28.15:530][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_TankWhite_Auto49C2C4FD94B63C360710B5B8D83AB2013.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankWhite_Auto4.uasset'
+[2025.10.03-16.28.15:530][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/M_TankYellow] ([1] browsable assets)...
+[2025.10.03-16.28.15:536][765]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/DrillTank/M_TankYellow.M_TankYellow]
+[2025.10.03-16.28.15:536][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/M_TankYellow]
+[2025.10.03-16.28.15:536][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/M_TankYellow" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankYellow_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-16.28.15:538][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/M_TankYellow_Auto4
+[2025.10.03-16.28.15:539][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_TankYellow_Auto40A11DD434BB5B0F3E26884B379F1B7ED.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/M_TankYellow_Auto4.uasset'
+[2025.10.03-16.28.15:539][765]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/DrillTank/DrillTank] ([1] browsable assets)...
+[2025.10.03-16.28.15:548][765]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/DrillTank/DrillTank.DrillTank]
+[2025.10.03-16.28.15:548][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/DrillTank]
+[2025.10.03-16.28.15:548][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/DrillTank" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/DrillTank_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.10.03-16.28.15:553][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshes/DrillTank/DrillTank_Auto4
+[2025.10.03-16.28.15:553][765]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/DrillTank_Auto45E0B406A465AD22212BB80BF6FA6A348.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Meshes/DrillTank/DrillTank_Auto4.uasset'
+[2025.10.03-16.28.15:554][765]LogFileHelpers: Auto-saving content packages took 0.106
+[2025.10.03-16.28.15:722][766]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.28.15:798][767]LogD3D12RHI: Creating RTPSO with 36 shaders (0 cached, 2 new) took 76.22 ms. Compile time 73.83 ms, link time 2.37 ms.
+[2025.10.03-16.28.45:669][136]LogDerivedDataCache: C:/Users/Omen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-16.29.29:090][310]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/DrillTank/DrillTank.DrillTank
+[2025.10.03-16.29.29:129][310]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.10.03-16.29.29:919][311]LogPSOHitching: Encountered 800 PSO creation hitches so far (382 graphics, 418 compute). 0 of them were precached.
+[2025.10.03-16.29.40:039][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-16.29.40:081][549]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/DrillTank/DrillTank] ([1] browsable assets)...
+[2025.10.03-16.29.40:081][549]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/DrillTank/DrillTank]
+[2025.10.03-16.29.40:081][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/DrillTank/DrillTank" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Meshes/DrillTank/DrillTank.uasset" SILENT=true
+[2025.10.03-16.29.40:085][549]LogSavePackage: Moving output files for package: /Game/Meshes/DrillTank/DrillTank
+[2025.10.03-16.29.40:085][549]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/DrillTankE7ACDE9E42009569CE6459BE5B0CE1C5.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Meshes/DrillTank/DrillTank.uasset'
+[2025.10.03-16.29.40:094][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.769 ms (total: 1.53 sec)
+[2025.10.03-16.29.40:118][549]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-16.29.40:118][549]LogContentValidation: Enabled validators:
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-16.29.40:118][549]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-16.29.40:119][549]AssetCheck: /Game/Meshes/DrillTank/DrillTank Validating asset
+[2025.10.03-16.29.40:139][549]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../UEPROJECTS/CrystalCovern/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.03-16.29.41:214][607]LogSlate: Window 'DrillTank' being destroyed
+[2025.10.03-16.29.41:220][607]LogSlate: Window 'DrillTank' being destroyed
+[2025.10.03-16.29.41:251][607]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-16.29.41:251][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.29.41:304][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.03-16.29.46:899][926]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCart.BP_PlayerCart
+[2025.10.03-16.29.46:899][926]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.10.03-16.29.55:600][394]LogRenderer: Using fallback RTPSO
+[2025.10.03-16.29.55:611][394]LogD3D12RHI: Creating RTPSO with 39 shaders (0 cached, 3 new) took 11.81 ms. Compile time 6.29 ms, link time 5.50 ms.
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: ================================================
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: Total job queries 522, among them cache hits 129 (24.71%), DDC hits 269 (51.53%), Duplicates 69 (13.22%)
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: Tracking 324 distinct input hashes that result in 216 distinct outputs (66.67%)
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: RAM used: 1,94 MiB of 1,60 GiB budget. Usage: 0.12%
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.03-16.29.55:886][409]LogShaderCompilers: Display: Shaders Compiled: 55
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Jobs assigned 55, completed 55 (100%)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Average time worker was idle: 0.65 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Time job spent in pending queue: average 0.23 s, longest 1.84 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Job execution time: average 3.00 s, max 5.73 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Job life time (pending + execution): average 3.23 s, max 5.83
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Shader code size: total 688,596 KiB, numShaders 55, average 12,52 KiB, min 4,332 KiB, max 19,344 KiB
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.68 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.67 jobs/batch
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Average processing rate: 6.34 jobs/sec
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Total thread time: 64,567 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Total thread preprocess time: 8,288 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Percentage time preprocessing: 12.84%
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Effective parallelization: 7.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.464861
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    5 times, average 2.00 sec, max 2.33 sec, min 1.42 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    5 times, average 1.89 sec, max 2.29 sec, min 1.28 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    5 times, average 1.65 sec, max 1.67 sec, min 1.62 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 1.30 sec, max 1.42 sec, min 1.23 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   10 times, average 1.17 sec, max 1.55 sec, min 0.93 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 18.08% of total time (compiled   10 times, average 1.17 sec, max 1.55 sec, min 0.93 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.43% of total time (compiled   10 times, average 1.13 sec, max 1.59 sec, min 0.60 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 15.53% of total time (compiled    5 times, average 2.00 sec, max 2.33 sec, min 1.42 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 14.65% of total time (compiled    5 times, average 1.89 sec, max 2.29 sec, min 1.28 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display:                                                 FLumenCardCS - 12.81% of total time (compiled    5 times, average 1.65 sec, max 1.67 sec, min 1.62 sec)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: === Material stats ===
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Materials Translated:    160
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Material Total Translate Time: 0.23 s
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Material Translation Only: 0.04 s (17%)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: Material Cache Hits: 22 (14%)
+[2025.10.03-16.29.55:887][409]LogShaderCompilers: Display: ================================================
+[2025.10.03-16.29.58:071][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-16.29.58:491][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-16.29.58:538][555]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-16.29.58:578][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCart.BP_PlayerCart]
+[2025.10.03-16.29.58:578][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-16.29.58:578][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-16.29.58:581][555]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-16.29.58:581][555]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCart2CD562C64DF2604C6C8A17A500C0B072.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-16.29.58:590][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.854 ms (total: 1.63 sec)
+[2025.10.03-16.29.58:620][555]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-16.29.58:620][555]LogContentValidation: Enabled validators:
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-16.29.58:620][555]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-16.29.58:620][555]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-16.30.01:143][699]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-16.30.01:150][699]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-16.30.01:154][699]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-16.30.01:154][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.01:205][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-16.30.01:995][746]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-16.30.02:000][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-16.30.02:000][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-16.30.02:003][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2025.10.03-16.30.02:003][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002260s)
+[2025.10.03-16.30.02:024][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-16.30.02:026][746]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-16.30.02:027][746]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2025.10.03-16.30.02:028][746]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-16.30.02:028][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-16.30.02:028][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-16.30.02:028][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-16.30.02:028][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-16.30.02:028][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-16.30.02:030][746]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-16.30.02:043][746]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-16.30.02:043][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-16.30.02:043][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-16.30.02:043][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-16.30.02:044][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.03-16.30.02:044][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.03-16.30.02:046][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.03-16.30.02:046][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.03-16.30.02:046][746]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.03-16.30.02:046][746]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level1'.
+[2025.10.03-16.30.02:046][746]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.03-16.30.02:050][746]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-16.30.02:051][746]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-19.30.02
+[2025.10.03-16.30.02:051][746]LogWorld: Bringing up level for play took: 0.000778
+[2025.10.03-16.30.02:052][746]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.10.03-16.30.02:054][746]PIE: Server logged in
+[2025.10.03-16.30.02:057][746]PIE: Play in editor total start time 0,056 seconds.
+[2025.10.03-16.30.02:097][747]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-16.30.02:440][748]LogPSOHitching: Encountered 850 PSO creation hitches so far (403 graphics, 447 compute). 0 of them were precached.
+[2025.10.03-16.30.05:347][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-16.30.05:348][919]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-16.30.05:348][919]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-16.30.05:348][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.05:349][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-16.30.05:353][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.05:372][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-16.30.05:373][919]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.03-16.30.05:373][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.10.03-16.30.05:375][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.10.03-16.30.05:380][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.03-16.30.05:434][920]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.10.03-16.30.08:824][107]Cmd: DELETE
+[2025.10.03-16.30.08:824][107]Cmd: ACTOR DELETE
+[2025.10.03-16.30.08:826][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.03-16.30.08:848][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.03-16.30.08:850][107]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.10.03-16.30.18:098][600]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.03-16.30.21:089][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-16.30.21:125][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-16.30.21:161][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.10.03-16.30.21:173][764]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-16.30.21:173][764]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1730CC1A548F6D2D134DB2B8986DE99FD.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-16.30.21:180][764]LogFileHelpers: Saving map 'Level1' took 0.056
+[2025.10.03-16.30.21:189][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.193 ms (total: 1.73 sec)
+[2025.10.03-16.30.21:230][764]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-16.30.21:230][764]LogContentValidation: Enabled validators:
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-16.30.21:230][764]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-16.30.21:230][764]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-16.30.21:680][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-16.30.21:685][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-16.30.21:685][791]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.10.03-16.30.21:688][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002155s)
+[2025.10.03-16.30.21:688][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002184s)
+[2025.10.03-16.30.21:708][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.03-16.30.21:710][791]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.10.03-16.30.21:712][791]LogPlayLevel: PIE: World Init took: (0.001569s)
+[2025.10.03-16.30.21:712][791]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-16.30.21:712][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-16.30.21:712][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-16.30.21:712][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-16.30.21:712][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-16.30.21:712][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-16.30.21:714][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-16.30.21:728][791]LogAudioMixer: Display: Using Audio Hardware Device Наушники (1MORE HQ51)
+[2025.10.03-16.30.21:728][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-16.30.21:728][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-16.30.21:728][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-16.30.21:728][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.03-16.30.21:728][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.03-16.30.21:731][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.03-16.30.21:731][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.03-16.30.21:731][791]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.03-16.30.21:731][791]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level1'.
+[2025.10.03-16.30.21:731][791]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.03-16.30.21:734][791]LogLoad: Game class is 'BP_GameModePlayer_C'
+[2025.10.03-16.30.21:735][791]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.10.03-19.30.21
+[2025.10.03-16.30.21:735][791]LogWorld: Bringing up level for play took: 0.000758
+[2025.10.03-16.30.21:737][791]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.10.03-16.30.21:740][791]PIE: Server logged in
+[2025.10.03-16.30.21:741][791]PIE: Play in editor total start time 0,056 seconds.
+[2025.10.03-16.30.21:779][792]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.03-16.30.24:657][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-16.30.24:657][958]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.10.03-16.30.24:657][958]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-16.30.24:658][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.24:658][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-16.30.24:663][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.24:683][958]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.03-16.30.24:683][958]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.03-16.30.24:683][958]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.03-16.30.24:685][958]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.03-16.30.24:689][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-16.30.24:691][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.03-16.30.24:732][959]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.10.03-16.30.29:035][205]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCart.BP_PlayerCart
+[2025.10.03-16.30.29:035][205]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.10.03-16.30.36:167][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-16.30.36:193][609]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_PlayerCart] ([2] browsable assets)...
+[2025.10.03-16.30.36:193][609]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCart]
+[2025.10.03-16.30.36:193][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCart" FILE="../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset" SILENT=true
+[2025.10.03-16.30.36:196][609]LogSavePackage: Moving output files for package: /Game/BP_PlayerCart
+[2025.10.03-16.30.36:196][609]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/BP_PlayerCartD794C7CD425006A9F76E8F924FDB3A95.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/BP_PlayerCart.uasset'
+[2025.10.03-16.30.36:206][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.324 ms (total: 1.77 sec)
+[2025.10.03-16.30.36:240][609]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-16.30.36:240][609]LogContentValidation: Enabled validators:
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-16.30.36:240][609]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-16.30.36:240][609]AssetCheck: /Game/BP_PlayerCart Validating asset
+[2025.10.03-16.30.37:219][666]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-16.30.37:225][666]LogSlate: Window 'BP_PlayerCart' being destroyed
+[2025.10.03-16.30.37:229][666]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-16.30.37:229][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-16.30.37:292][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.03-16.30.50:326][745]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11041.171875
+[2025.10.03-16.30.51:327][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.30.51:327][748]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11041.837891, Update Interval: 358.322693
+[2025.10.03-16.37.35:049][959]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11445.863281
+[2025.10.03-16.37.36:049][962]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.37.36:049][962]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11446.530273, Update Interval: 307.575317
+[2025.10.03-16.43.21:422][998]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11792.204102
+[2025.10.03-16.43.22:421][  1]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.43.22:421][  1]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11792.871094, Update Interval: 332.725616
+[2025.10.03-16.49.47:458][156]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12178.207031
+[2025.10.03-16.49.48:458][159]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.49.48:458][159]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12178.874023, Update Interval: 315.434418
+[2025.10.03-16.56.03:502][284]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12554.212891
+[2025.10.03-16.56.04:500][287]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.56.04:500][287]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12554.878906, Update Interval: 303.588989
+[2025.10.03-17.02.02:542][361]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12913.213867
+[2025.10.03-17.02.03:544][364]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.02.03:544][364]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12913.880859, Update Interval: 319.351166
+[2025.10.03-17.08.15:585][480]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13286.231445
+[2025.10.03-17.08.16:585][483]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.08.16:585][483]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13286.897461, Update Interval: 317.662903
+[2025.10.03-17.14.15:300][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13645.913086
+[2025.10.03-17.14.16:634][563]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.14.16:634][563]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13646.914062, Update Interval: 347.762695
+[2025.10.03-17.18.23:384][304]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.10.03-17.18.23:384][304]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
