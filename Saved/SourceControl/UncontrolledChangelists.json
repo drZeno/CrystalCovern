@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
-				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/Level1.umap"
+				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/Level1.umap",
+				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_5EA6F125.uasset",
+				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_FCEF3E10.uasset",
+				"C:/GameDev/UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234.uasset"
 			]
 		}
 	]

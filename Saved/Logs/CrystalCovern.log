@@ -1586,3 +1586,277 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.02-23.04.23:482][379]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 672.559753
 [2025.10.02-23.04.24:482][382]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.02-23.04.24:482][382]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 673.226807, Update Interval: 304.991608
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: ================================================
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: Total job queries 2 700, among them cache hits 631 (23.37%), DDC hits 1 875 (69.44%), Duplicates 141 (5.22%)
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: Tracking 1 928 distinct input hashes that result in 1 203 distinct outputs (62.40%)
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: RAM used: 12,23 MiB of 1,60 GiB budget. Usage: 0.75%
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: Shaders Compiled: 53
+[2025.10.02-23.05.14:154][531]LogShaderCompilers: Display: Jobs assigned 53, completed 53 (100%)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Average time worker was idle: 2.35 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.35 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Job execution time: average 0.75 s, max 1.62 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Job life time (pending + execution): average 0.80 s, max 1.97
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Shader code size: total 533,317 KiB, numShaders 54, average 9,876 KiB, min 1,395 KiB, max 32,734 KiB
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.34 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.13%
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Jobs were issued in 42 batches (only local compilation was used), average 1.26 jobs/batch
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Average processing rate: 8.36 jobs/sec
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Total thread time: 22,969 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Total thread preprocess time: 46,74 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Percentage time preprocessing: 203.49%
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Effective parallelization: 3.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.226379
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.59 sec, max 1.59 sec, min 1.59 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.57 sec, max 1.57 sec, min 1.57 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 0.93 sec, max 1.17 sec, min 0.74 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 0.89 sec, max 1.17 sec, min 0.58 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.53% of total time (compiled   10 times, average 0.36 sec, max 0.49 sec, min 0.26 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.44% of total time (compiled    4 times, average 0.89 sec, max 1.17 sec, min 0.58 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.13% of total time (compiled    3 times, average 0.93 sec, max 1.17 sec, min 0.74 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.94% of total time (compiled    6 times, average 0.27 sec, max 0.34 sec, min 0.18 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 6.93% of total time (compiled    1 times, average 1.59 sec, max 1.59 sec, min 1.59 sec)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: === Material stats ===
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Materials Translated:    151
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Material Translation Only: 0.04 s (43%)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.02-23.05.14:155][531]LogShaderCompilers: Display: ================================================
+[2025.10.02-23.05.28:848][785]LogInteractiveToolsContext: Display: Select PolyGroups to edit mesh. Use middle mouse on gizmo to reposition it. Hold Ctrl while translating or (in local mode) rotating to align to scene. Shift and Ctrl change marquee select behavior. Ctrl+R toggles Gizmo Orientation Lock.
+[2025.10.02-23.05.28:848][785]LogInteractiveToolsContext: Warning: 
+[2025.10.02-23.05.39:358][413]LogInteractiveToolsContext: Warning: 
+[2025.10.02-23.05.39:358][413]LogInteractiveToolsContext: Display: Select PolyGroups to edit mesh. Use middle mouse on gizmo to reposition it. Hold Ctrl while translating or (in local mode) rotating to align to scene. Shift and Ctrl change marquee select behavior. Ctrl+R toggles Gizmo Orientation Lock.
+[2025.10.02-23.05.41:497][540]LogInteractiveToolsContext: Display: Select PolyGroups to edit mesh. Use middle mouse on gizmo to reposition it. Hold Ctrl while translating or (in local mode) rotating to align to scene. Shift and Ctrl change marquee select behavior. Ctrl+R toggles Gizmo Orientation Lock.
+[2025.10.02-23.05.43:153][638]LogStaticMesh: Display: Building static mesh Box_5EA6F125 (Required Memory Estimate: 0.067064 MB)...
+[2025.10.02-23.05.43:158][638]LogStaticMesh: Built static mesh [0.01s] /Game/_GENERATED/Omen/Box_5EA6F125.Box_5EA6F125
+[2025.10.02-23.05.55:955][404]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.02-23.05.55:956][404]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.02-23.06.06:231][ 19]LogInteractiveToolsContext: Display: Alter shape settings in the detail panel or modify placement with gizmo, then accept the tool.
+[2025.10.02-23.06.21:247][919]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_GENERATED/Omen/Box_FCEF3E10.Box_FCEF3E10
+[2025.10.02-23.06.21:248][919]LogStaticMesh: Display: Building static mesh Box_FCEF3E10 (Required Memory Estimate: 0.027864 MB)...
+[2025.10.02-23.06.21:248][919]LogStaticMesh: Built static mesh [0.00s] /Game/_GENERATED/Omen/Box_FCEF3E10.Box_FCEF3E10
+[2025.10.02-23.06.21:248][919]LogActorFactory: Actor Factory spawned StaticMesh /Game/_GENERATED/Omen/Box_FCEF3E10.Box_FCEF3E10 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: SeekCallback: Failed to seek to Offset=0, Origin=0 seek disabled
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B33C07B68-4D2B-9C81-D4FB-9EACEC3957FD%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 0 (Found bundle for host: 0x2475a880090 [serially])
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.10.02-23.06.28:753][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 6 (Closing connection)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 8 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B33C07B68-4D2B-9C81-D4FB-9EACEC3957FD%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 9 (Found bundle for host: 0x2475a880090 [serially])
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 10 (Re-using existing connection with host api.epicgames.dev)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 11 (We are completely uploaded and fine)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 12 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 13 (Connection died, retrying a fresh connect (retry count: 2))
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 14 (state.rewindbeforesend = TRUE)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 15 (Closing connection)
+[2025.10.02-23.06.28:754][363]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 16 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 17 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B33C07B68-4D2B-9C81-D4FB-9EACEC3957FD%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 18 (  Trying 52.202.15.120:443...)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 19 (Connected to api.epicgames.dev (52.202.15.120) port 443)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 20 (ALPN: curl offers http/1.1)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 21 (SSL reusing session ID)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 22 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 23 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 24 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 25 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 26 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 27 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 28 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 29 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 30 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 31 (ALPN: server accepted http/1.1)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 32 (Server certificate:)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 33 ( subject: CN=*.befa.live.use1a.on.epicgames.com)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 34 ( start date: Sep 18 00:00:00 2025 GMT)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 35 ( expire date: Oct 16 23:59:59 2026 GMT)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 36 ( subjectAltName: host "api.epicgames.dev" matched cert's "*.epicgames.dev")
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 37 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M01)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 38 ( SSL certificate verify ok.)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 39 (using HTTP/1.1)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 40 (seek callback returned error 2)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 41 (Closing connection)
+[2025.10.02-23.06.28:754][364]LogEOSSDK: Warning: LogHttp: 00000246D80D6600: libcurl info message cache 42 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.10.02-23.06.28:770][364]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B33C07B68-4D2B-9C81-D4FB-9EACEC3957FD%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.10.02-23.09.36:810][605]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 985.887390
+[2025.10.02-23.09.40:176][807]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.09.40:177][807]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 989.237732, Update Interval: 308.789337
+[2025.10.02-23.10.34:980][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.10.02-23.10.34:993][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.10.02-23.10.34:995][681]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level1_Auto1
+[2025.10.02-23.10.34:995][681]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1_Auto1AA4F8C154ECB72BFF51010B6AACF829F.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/Level1_Auto1.umap'
+[2025.10.02-23.10.34:996][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.051
+[2025.10.02-23.10.34:996][681]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.051
+[2025.10.02-23.10.35:003][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_GENERATED/Omen/Box_5EA6F125] ([1] browsable assets)...
+[2025.10.02-23.10.35:071][681]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_GENERATED/Omen/Box_5EA6F125.Box_5EA6F125]
+[2025.10.02-23.10.35:071][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_5EA6F125]
+[2025.10.02-23.10.35:071][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_5EA6F125" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/_GENERATED/Omen/Box_5EA6F125_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.02-23.10.35:077][681]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/Omen/Box_5EA6F125_Auto1
+[2025.10.02-23.10.35:077][681]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_5EA6F125_Auto16AD14DCD4C60C57F247861A7DCFEC718.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/_GENERATED/Omen/Box_5EA6F125_Auto1.uasset'
+[2025.10.02-23.10.35:077][681]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234] ([2] browsable assets)...
+[2025.10.02-23.10.35:092][681]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234.MI_M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234]
+[2025.10.02-23.10.35:094][681]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234.T_M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234_BaseColor]
+[2025.10.02-23.10.35:094][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234]
+[2025.10.02-23.10.35:096][681]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234_Auto1
+[2025.10.02-23.10.35:096][681]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_Box_5EA6F125_WorldGridMaterial0DC10DA041D363149554CDA305ECC119.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234_Auto1.uasset'
+[2025.10.02-23.10.35:097][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_GENERATED/Omen/Box_FCEF3E10] ([1] browsable assets)...
+[2025.10.02-23.10.35:107][681]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_GENERATED/Omen/Box_FCEF3E10.Box_FCEF3E10]
+[2025.10.02-23.10.35:107][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_FCEF3E10]
+[2025.10.02-23.10.35:107][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_FCEF3E10" FILE="../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/_GENERATED/Omen/Box_FCEF3E10_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.02-23.10.35:109][681]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/Omen/Box_FCEF3E10_Auto1
+[2025.10.02-23.10.35:109][681]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_FCEF3E10_Auto174FF64674D7FF183313E2A86E7D24EEF.tmp' to '../../../../UEPROJECTS/CrystalCovern/Saved/Autosaves/Game/_GENERATED/Omen/Box_FCEF3E10_Auto1.uasset'
+[2025.10.02-23.10.35:109][681]LogFileHelpers: Auto-saving content packages took 0.107
+[2025.10.02-23.11.22:708][266]Cmd: DELETE
+[2025.10.02-23.11.22:708][266]Cmd: ACTOR DELETE
+[2025.10.02-23.11.22:717][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.02-23.11.22:718][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.02-23.11.22:733][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.10.02-23.11.22:736][266]LogEditorActor: Deleted 2 Actors (0.022 secs)
+[2025.10.02-23.11.24:167][352]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.02-23.11.24:168][352]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2025.10.02-23.11.24:759][387]LogInteractiveToolsContext: Display: Alter shape settings in the detail panel or modify placement with gizmo, then accept the tool.
+[2025.10.02-23.14.58:147][ 73]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1307.223999
+[2025.10.02-23.14.59:479][ 77]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.14.59:479][ 77]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1308.224487, Update Interval: 338.431335
+[2025.10.02-23.20.58:528][ 51]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1667.605347
+[2025.10.02-23.20.58:945][ 76]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.20.58:945][ 76]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1668.005371, Update Interval: 356.429321
+[2025.10.02-23.27.33:279][541]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2062.354980
+[2025.10.02-23.27.34:279][544]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.27.34:279][544]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2063.021484, Update Interval: 308.371826
+[2025.10.02-23.33.37:816][633]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2426.891602
+[2025.10.02-23.33.38:818][636]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.33.38:818][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2427.558594, Update Interval: 346.466248
+[2025.10.02-23.40.23:873][851]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2832.949463
+[2025.10.02-23.40.24:873][854]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.40.24:873][854]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2833.617676, Update Interval: 312.358154
+[2025.10.02-23.46.33:922][961]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3202.999023
+[2025.10.02-23.46.34:923][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.46.34:924][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3203.666504, Update Interval: 342.624603
+[2025.10.02-23.53.02:308][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3591.384033
+[2025.10.02-23.53.03:309][129]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.53.03:309][129]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3592.050537, Update Interval: 316.483643
+[2025.10.02-23.55.04:787][494]LogDerivedDataCache: C:/Users/Omen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.02-23.59.16:024][247]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3965.098633
+[2025.10.02-23.59.17:024][250]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.02-23.59.17:024][250]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3965.765137, Update Interval: 332.795197
+[2025.10.03-00.05.20:733][341]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4329.807617
+[2025.10.03-00.05.22:067][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-00.05.22:067][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4330.808105, Update Interval: 328.990143
+[2025.10.03-00.11.30:787][451]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4699.868164
+[2025.10.03-00.11.32:121][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-00.11.32:121][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4700.868164, Update Interval: 306.350281
+[2025.10.03-00.17.21:169][502]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5050.260742
+[2025.10.03-00.17.22:503][506]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-00.17.22:503][506]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5051.260742, Update Interval: 331.154510
+[2025.10.03-00.23.20:857][581]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-00.23.20:857][581]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-00.23.24:262][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.10.03-00.23.25:616][778]LogSlate: Window 'Save Content' being destroyed
+[2025.10.03-00.23.25:652][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-00.23.25:694][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-00.23.25:696][778]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_GENERATED/Omen/Box_F0964923.Box_F0964923
+[2025.10.03-00.23.25:697][778]LogStaticMesh: Display: Building static mesh Box_F0964923 (Required Memory Estimate: 0.027864 MB)...
+[2025.10.03-00.23.25:698][778]LogStaticMesh: Built static mesh [0.00s] /Game/_GENERATED/Omen/Box_F0964923.Box_F0964923
+[2025.10.03-00.23.25:698][778]LogActorFactory: Actor Factory spawned StaticMesh /Game/_GENERATED/Omen/Box_F0964923.Box_F0964923 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_2
+[2025.10.03-00.23.25:866][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.10.03-00.23.25:870][778]LogSavePackage: Moving output files for package: /Game/Level1
+[2025.10.03-00.23.25:871][778]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Level1D17732F1496D6FAA591C55A53878FDA9.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/Level1.umap'
+[2025.10.03-00.23.25:875][778]LogFileHelpers: Saving map 'Level1' took 0.182
+[2025.10.03-00.23.25:876][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/Omen/Box_5EA6F125] ([1] browsable assets)...
+[2025.10.03-00.23.25:876][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_5EA6F125]
+[2025.10.03-00.23.25:876][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_5EA6F125" FILE="../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_5EA6F125.uasset" SILENT=true
+[2025.10.03-00.23.25:878][778]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/Box_5EA6F125
+[2025.10.03-00.23.25:878][778]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_5EA6F12527470104478AAA588A3EB68DDFB95194.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_5EA6F125.uasset'
+[2025.10.03-00.23.25:879][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/Omen/Box_FCEF3E10] ([1] browsable assets)...
+[2025.10.03-00.23.25:879][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/Box_FCEF3E10]
+[2025.10.03-00.23.25:879][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_GENERATED/Omen/Box_FCEF3E10" FILE="../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_FCEF3E10.uasset" SILENT=true
+[2025.10.03-00.23.25:880][778]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/Box_FCEF3E10
+[2025.10.03-00.23.25:881][778]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/Box_FCEF3E1078E3CC104FB1824E577A55B77C42303E.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/Box_FCEF3E10.uasset'
+[2025.10.03-00.23.25:881][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234] ([2] browsable assets)...
+[2025.10.03-00.23.25:881][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234]
+[2025.10.03-00.23.25:883][778]LogSavePackage: Moving output files for package: /Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234
+[2025.10.03-00.23.25:883][778]LogSavePackage: Moving '../../../../UEPROJECTS/CrystalCovern/Saved/M_Box_5EA6F125_WorldGridMaterial968B93404FD91F7295D348A9F9837C9C.tmp' to '../../../../UEPROJECTS/CrystalCovern/Content/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234.uasset'
+[2025.10.03-00.23.25:896][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 243.919 ms (total: 450.292 ms)
+[2025.10.03-00.23.25:922][778]LogStall: Shutdown...
+[2025.10.03-00.23.25:922][778]LogStall: Shutdown complete.
+[2025.10.03-00.23.25:938][778]LogSlate: Window 'CrystalCovern - Unreal Editor' being destroyed
+[2025.10.03-00.23.25:939][778]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2025.10.03-00.23.26:094][778]LogContentValidation: Display: Starting to validate 5 assets
+[2025.10.03-00.23.26:094][778]LogContentValidation: Enabled validators:
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-00.23.26:094][778]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-00.23.26:094][778]AssetCheck: /Game/Level1 Validating asset
+[2025.10.03-00.23.26:094][778]AssetCheck: /Game/_GENERATED/Omen/Box_5EA6F125 Validating asset
+[2025.10.03-00.23.26:094][778]AssetCheck: /Game/_GENERATED/Omen/Box_FCEF3E10 Validating asset
+[2025.10.03-00.23.26:094][778]AssetCheck: /Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234 Validating asset
+[2025.10.03-00.23.26:094][778]AssetCheck: /Game/_GENERATED/Omen/M_Box_5EA6F125_WorldGridMaterial_82B302334F28AF94DAF4EB9D8B81D234 Validating asset
+[2025.10.03-00.23.26:098][778]Cmd: QUIT_EDITOR
+[2025.10.03-00.23.26:098][778]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.03-00.23.26:098][778]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../UEPROJECTS/CrystalCovern/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.03-00.23.26:101][779]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.03-00.23.26:102][779]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.03-00.23.26:105][779]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.03-00.23.26:106][779]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-00.23.26:128][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-00.23.26:133][779]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.03-00.23.26:133][779]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.03-00.23.26:133][779]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.03-00.23.26:139][779]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-00.23.26:139][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-00.23.26:140][779]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-00.23.26:140][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-00.23.26:140][779]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-00.23.26:140][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-00.23.26:140][779]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.03-00.23.26:140][779]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.03-00.23.26:143][779]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.03-00.23.26:144][779]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.03-00.23.26:144][779]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.03-00.23.26:144][779]LogAudio: Display: Audio Device unregistered from world 'Level1'.
+[2025.10.03-00.23.26:144][779]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.03-00.23.26:144][779]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.03-00.23.26:147][779]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.03-00.23.26:156][779]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.03-00.23.26:156][779]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.03-00.23.26:160][779]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.03-00.23.26:161][779]LogExit: Preparing to exit.
+[2025.10.03-00.23.26:196][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.10.03-00.23.27:463][779]LogEditorDataStorage: Deinitializing
+[2025.10.03-00.23.27:519][779]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.03-00.23.27:544][779]LogExit: Editor shut down
+[2025.10.03-00.23.27:548][779]LogExit: Transaction tracking system shut down
+[2025.10.03-00.23.27:711][779]LogExit: Object subsystem successfully closed.
+[2025.10.03-00.23.27:792][779]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.03-00.23.27:862][779]LogMemoryProfiler: Shutdown
+[2025.10.03-00.23.27:862][779]LogNetworkingProfiler: Shutdown
+[2025.10.03-00.23.27:862][779]LoadingProfiler: Shutdown
+[2025.10.03-00.23.27:862][779]LogTimingProfiler: Shutdown
+[2025.10.03-00.23.27:863][779]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.03-00.23.27:863][779]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.03-00.23.28:201][779]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.03-00.23.28:207][779]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.03-00.23.28:207][779]RenderDocPlugin: plugin has been unloaded.
+[2025.10.03-00.23.28:242][779]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.03-00.23.28:242][779]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08D6061D-4228-0A0B-73F1-799C874EA465%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2bea088e430262d5e170c48f0a8d0171%7C376b858c800d438186b63386e1bb36bf%7C6c9c5daf-cae7-459c-a0aa-fcc3c710a22e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.03-00.23.30:311][779]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.03-00.23.30:313][779]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.03-00.23.30:314][779]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.03-00.23.30:314][779]LogPakFile: Destroying PakPlatformFile
+[2025.10.03-00.23.30:967][779]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.03-00.23.31:016][779]LogExit: Exiting.
+[2025.10.03-00.23.31:082][779]Log file closed, 10/03/25 03:23:31
